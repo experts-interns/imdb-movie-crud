@@ -290,7 +290,7 @@ function MoviePage() {
                   <td className="px-6 py-4 flex items-center">
                     <button
                       className="text-blue-500 mr-2"
-                      onClick={() => navigate(`/movies/${movie._id}/edit`)}
+                      onClick={() => navigate(`/EditMovie/${movie._id}`)}
                     >
                       <FaEdit />
                     </button>
